@@ -14,23 +14,23 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class WebTest {
-    WebDriver driver;
-
-    @BeforeAll
-    static void setupAll() {
-        WebDriverManager.chromedriver().setup();
-    }
-
-    @BeforeEach
-    void setUp() {
-        driver = new ChromeDriver();
-    }
-
-    @AfterEach
-    void tearDown(){
-        driver.quit();
-        driver = null;
-    }
+//    WebDriver driver;
+//
+//    @BeforeAll
+//    static void setupAll() {
+//        WebDriverManager.chromedriver().setup();
+//    }
+//
+//    @BeforeEach
+//    void setUp() {
+//        driver = new ChromeDriver();
+//    }
+//
+//    @AfterEach
+//    void tearDown(){
+//        driver.quit();
+//        driver = null;
+//    }
 
     @Test
     void applicationMustPass() throws InterruptedException {
